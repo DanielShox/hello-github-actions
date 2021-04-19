@@ -23,7 +23,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Hello world action step
         id: hello
-        uses: actions/q-tech-asana-action@v1.1
+        uses: actions/q-tech-asana-action@v1
         with:
           who-to-greet: 'Daniel the Octocat'
       # Use the output from the `hello` step
