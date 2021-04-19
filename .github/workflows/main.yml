@@ -23,7 +23,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Hello world action step
         id: hello
-        uses: actions/asana-github-integration@v1
+        uses: actions/asana-github-integration@main
         with:
           who-to-greet: 'Daniel the Octocat'
       # Use the output from the `hello` step
